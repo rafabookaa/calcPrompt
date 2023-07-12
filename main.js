@@ -25,31 +25,26 @@ if(operador == 4 ) {
 if(operador == 5) {
     sair
 }
-
 function funcaoSoma () {
     resultado = primeiroNumero + segundoNumero;
 
     alert(`O resultado é ${resultado}`)
 }
-
 function funcaoSubtracao () {
     resultado = primeiroNumero - segundoNumero;
 
     alert(`O resultado é ${resultado}`)
 }
-
 function funcaoMultiplicacao () {
     resultado = primeiroNumero * segundoNumero;
 
     alert(`O resultado é ${resultado}`)
 }
-
 function funcaoDivisao () {
     resultado = primeiroNumero / segundoNumero;
 
     alert(`O resultado é: ${resultado}`)
 }
-
 function sair () {
     alert('Obrigado')
 }
